@@ -1,1 +1,3 @@
-export function strategy() { return "Business: Strategy function"; }
+export function strategy() {
+    return "This is the Strategy function from the Business module.";
+}

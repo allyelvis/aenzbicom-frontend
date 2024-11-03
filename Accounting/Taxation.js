@@ -1,1 +1,3 @@
-export function taxation() { return "Accounting: Taxation function"; }
+export function taxation() {
+    return "This is the Taxation function from the Accounting module.";
+}

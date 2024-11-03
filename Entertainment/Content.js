@@ -1,1 +1,3 @@
-export function content() { return "Entertainment: Content function"; }
+export function content() {
+    return "This is the Content function from the Entertainment module.";
+}

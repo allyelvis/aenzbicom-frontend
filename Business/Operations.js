@@ -1,1 +1,3 @@
-export function operations() { return "Business: Operations function"; }
+export function operations() {
+    return "This is the Operations function from the Business module.";
+}

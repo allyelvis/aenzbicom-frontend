@@ -1,1 +1,3 @@
-export function services() { return "Hospitality: Services function"; }
+export function services() {
+    return "This is the Services function from the Hospitality module.";
+}

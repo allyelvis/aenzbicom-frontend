@@ -109,3 +109,18 @@ const CommerceComponent = () => {
 };
 
 export default CommerceComponent;
+// AccountingComponent.js
+import React from 'react';
+
+const AccountingComponent = ({ overview }) => {
+    return (
+        <div>
+            <h2>Accounting Overview</h2>
+            <p><strong>Revenue:</strong> ${overview.revenue}</p>
+            <p><strong>Expenses:</strong> ${overview.expenses}</p>
+            <p><strong>Profit:</strong> ${overview.profit}</p>
+        </div>
+    );
+};
+
+export default AccountingComponent;

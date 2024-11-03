@@ -14,3 +14,4 @@ function CommercePage() {
 }
 
 export default CommercePage;
+    // Add functionality here

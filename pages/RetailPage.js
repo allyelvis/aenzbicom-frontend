@@ -14,3 +14,4 @@ function RetailPage() {
 }
 
 export default RetailPage;
+    // Add functionality here

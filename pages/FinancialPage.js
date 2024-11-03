@@ -14,3 +14,4 @@ function FinancialPage() {
 }
 
 export default FinancialPage;
+    // Add functionality here

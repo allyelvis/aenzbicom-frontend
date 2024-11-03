@@ -14,3 +14,4 @@ function HospitalityPage() {
 }
 
 export default HospitalityPage;
+    // Add functionality here

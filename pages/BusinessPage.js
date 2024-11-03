@@ -14,3 +14,4 @@ function BusinessPage() {
 }
 
 export default BusinessPage;
+    // Add functionality here

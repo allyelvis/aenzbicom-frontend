@@ -14,3 +14,4 @@ function EntertainmentPage() {
 }
 
 export default EntertainmentPage;
+    // Add functionality here

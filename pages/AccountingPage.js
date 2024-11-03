@@ -14,3 +14,4 @@ function AccountingPage() {
 }
 
 export default AccountingPage;
+    // Add functionality here

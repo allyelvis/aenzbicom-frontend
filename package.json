@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "react-router-dom": "^6.27.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  },
+  "name": "aenzbicom-frontend",
+  "version": "1.0.0",
+  "description": "## Overview The Aenzbi project is a comprehensive business management application designed to streamline operations across various sectors, including business, finance, commerce, accounting, hospitality, and entertainment. This application features a React frontend integrated with a backend API for seamless data handling.",
+  "main": "reportWebVitals.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

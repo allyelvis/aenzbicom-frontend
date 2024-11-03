@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import AccountingComponent from './components/AccountingComponent';
+import BusinessComponent from './components/BusinessComponent';
+import CommerceComponent from './components/CommerceComponent';
+import FinancialComponent from './components/FinancialComponent';
+import HospitalityComponent from './components/HospitalityComponent';
+import RetailComponent from './components/RetailComponent';
+import EntertainmentComponent from './components/EntertainmentComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(
+    <Router>
+        <App>
+            <Routes>
+                <Route path="/" element={<AccountingComponent />} />
+                <Route path="/business" element={<BusinessComponent />} />
+                <Route path="/commerce" element={<CommerceComponent />} />
+                <Route path="/financial" element={<FinancialComponent />} />
+                <Route path="/hospitality" element={<HospitalityComponent />} />
+                <Route path="/retail" element={<RetailComponent />} />
+                <Route path="/entertainment" element={<EntertainmentComponent />} />
+            </Routes>
+        </App>
+    </Router>
+);

@@ -1,8 +1,3 @@
 import React from 'react';
-import FinancialDashboard from '../../components/financial/FinancialDashboard';
-
-const FinancialPage = () => {
-    return <FinancialDashboard />;
-};
-
+const FinancialPage = () => <div>Financial Page</div>;
 export default FinancialPage;

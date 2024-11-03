@@ -1,8 +1,3 @@
 import React from 'react';
-import CommerceDashboard from '../../components/commerce/CommerceDashboard';
-
-const CommercePage = () => {
-    return <CommerceDashboard />;
-};
-
+const CommercePage = () => <div>Commerce Page</div>;
 export default CommercePage;

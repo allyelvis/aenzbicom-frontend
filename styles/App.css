@@ -1,0 +1,11 @@
+.app {
+    font-family: Arial, sans-serif;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}

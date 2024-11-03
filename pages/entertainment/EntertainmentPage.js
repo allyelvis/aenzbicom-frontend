@@ -1,8 +1,3 @@
 import React from 'react';
-import EntertainmentDashboard from '../../components/entertainment/EntertainmentDashboard';
-
-const EntertainmentPage = () => {
-    return <EntertainmentDashboard />;
-};
-
+const EntertainmentPage = () => <div>Entertainment Page</div>;
 export default EntertainmentPage;

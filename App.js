@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import BusinessPage from './pages/business/BusinessPage';
 import FinancialPage from './pages/financial/FinancialPage';
 import CommercePage from './pages/commerce/CommercePage';
 import HospitalityPage from './pages/hospitality/HospitalityPage';
 import EntertainmentPage from './pages/entertainment/EntertainmentPage';
-import './App.css';
+import './styles/App.css';
 
 const App = () => {
     return (
@@ -34,13 +34,13 @@ const App = () => {
                 </header>
 
                 <main>
-                    <Switch>
-                        <Route path="/" exact component={BusinessPage} />
-                        <Route path="/financial" component={FinancialPage} />
-                        <Route path="/commerce" component={CommercePage} />
-                        <Route path="/hospitality" component={HospitalityPage} />
-                        <Route path="/entertainment" component={EntertainmentPage} />
-                    </Switch>
+                    <Routes>
+                        <Route path="/" element={<BusinessPage />} />
+                        <Route path="/financial" element={<FinancialPage />} />
+                        <Route path="/commerce" element={<CommercePage />} />
+                        <Route path="/hospitality" element={<HospitalityPage />} />
+                        <Route path="/entertainment" element={<EntertainmentPage />} />
+                    </Routes>
                 </main>
             </div>
         </Router>

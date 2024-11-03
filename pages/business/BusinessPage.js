@@ -1,8 +1,3 @@
 import React from 'react';
-import BusinessDashboard from '../../components/business/BusinessDashboard';
-
-const BusinessPage = () => {
-    return <BusinessDashboard />;
-};
-
+const BusinessPage = () => <div>Business Page</div>;
 export default BusinessPage;

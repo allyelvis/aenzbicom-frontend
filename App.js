@@ -1,50 +1,39 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import BusinessPage from './pages/business/BusinessPage';
-import FinancialPage from './pages/financial/FinancialPage';
-import CommercePage from './pages/commerce/CommercePage';
-import HospitalityPage from './pages/hospitality/HospitalityPage';
-import EntertainmentPage from './pages/entertainment/EntertainmentPage';
-import './styles/App.css';
+import BusinessPage from './pages/BusinessPage';
+import FinancialPage from './pages/FinancialPage';
+import CommercePage from './pages/CommercePage';
+import AccountingPage from './pages/AccountingPage';
+import HospitalityPage from './pages/HospitalityPage';
+import RetailPage from './pages/RetailPage';
+import EntertainmentPage from './pages/EntertainmentPage';
 
-const App = () => {
+function App() {
     return (
         <Router>
-            <div className="app">
-                <header>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/">Business</Link>
-                            </li>
-                            <li>
-                                <Link to="/financial">Financial</Link>
-                            </li>
-                            <li>
-                                <Link to="/commerce">Commerce</Link>
-                            </li>
-                            <li>
-                                <Link to="/hospitality">Hospitality</Link>
-                            </li>
-                            <li>
-                                <Link to="/entertainment">Entertainment</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-
-                <main>
-                    <Routes>
-                        <Route path="/" element={<BusinessPage />} />
-                        <Route path="/financial" element={<FinancialPage />} />
-                        <Route path="/commerce" element={<CommercePage />} />
-                        <Route path="/hospitality" element={<HospitalityPage />} />
-                        <Route path="/entertainment" element={<EntertainmentPage />} />
-                    </Routes>
-                </main>
+            <div>
+                <nav>
+                    <Link to="/business">Business</Link> | 
+                    <Link to="/financial">Financial</Link> | 
+                    <Link to="/commerce">Commerce</Link> | 
+                    <Link to="/accounting">Accounting</Link> | 
+                    <Link to="/hospitality">Hospitality</Link> | 
+                    <Link to="/retail">Retail</Link> | 
+                    <Link to="/entertainment">Entertainment</Link> | 
+                </nav>
+                <Routes>
+                    <Route path="/business" element={<BusinessPage />} />
+                    <Route path="/financial" element={<FinancialPage />} />
+                    <Route path="/commerce" element={<CommercePage />} />
+                    <Route path="/accounting" element={<AccountingPage />} />
+                    <Route path="/hospitality" element={<HospitalityPage />} />
+                    <Route path="/retail" element={<RetailPage />} />
+                    <Route path="/entertainment" element={<EntertainmentPage />} />
+                </Routes>
             </div>
         </Router>
     );
-};
+}
 
 export default App;

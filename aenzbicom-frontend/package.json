@@ -10,7 +10,7 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-scripts": "latest",
-    "webpack": "^5.0.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^4.0.0",
     "webpack-dev-server": "^3.11.0"
   },

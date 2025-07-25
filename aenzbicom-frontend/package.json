@@ -12,7 +12,7 @@
     "react-scripts": "latest",
     "webpack": "^5.97.1",
     "webpack-cli": "^4.0.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^4.7.3"
   },
   "devDependencies": {}
 }

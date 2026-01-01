@@ -7,7 +7,7 @@
     "build": "echo 'No build step for backend'"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.22.0",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {}
